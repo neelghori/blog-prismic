@@ -1,0 +1,51 @@
+{
+  "id": "all-blogs",
+  "label": "all-blogs",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "all_blogs": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "All blogs"
+        }
+      },
+      "body": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "blog-cardss": {
+              "type": "Slice",
+              "fieldset": "blog-cardss",
+              "description": "related to blog cards",
+              "icon": "all_inclusive",
+              "non-repeat": {},
+              "repeat": {
+                "title_blog": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title Blog"
+                  }
+                },
+                "blog-details1": {
+                  "type": "StructuredText",
+                  "config": {
+                    "multi": "paragraph",
+                    "label": "blog-details"
+                  }
+                }
+              }
+            },
+            "blog_title": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

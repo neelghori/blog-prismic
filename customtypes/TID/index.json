@@ -1,0 +1,28 @@
+{
+  "id": "TID",
+  "label": "title",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "heading": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Heading",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "paragraph": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Paragraph",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      }
+    }
+  }
+}

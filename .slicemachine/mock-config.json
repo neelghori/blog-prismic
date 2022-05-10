@@ -1,0 +1,12 @@
+{
+  "slices": {
+    "BlogTitle": {
+      "default": {
+        "primary": {}
+      }
+    }
+  },
+  "_cts": {
+    "all-blogs": {}
+  }
+}
